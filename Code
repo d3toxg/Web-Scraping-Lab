@@ -36,3 +36,16 @@ Tags
 Let's say we want the title of the page and the name of the top paid player we can use the Tag. 
 The Tag object corresponds to an HTML tag in the original document, for example, the tag title.
 
+tag_object=soup.title
+print("tag object:",tag_object)
+
+tag object: <title>Page Title</title>
+we can see the tag type bs4.element.Tag
+
+print("tag object type:",type(tag_object))
+
+tag object type: <class 'bs4.element.Tag'>
+If there is more than one Tag with the same name, the first element with that Tag name is called, this corresponds to the most paid player:
+
+tag_object=soup.h3
+tag_object
