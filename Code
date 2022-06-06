@@ -28,7 +28,8 @@ soup = BeautifulSoup(html, "html.parser")
 
 First, the document is converted to Unicode, (similar to ASCII), and HTML entities are converted to Unicode characters. 
 Beautiful Soup transforms a complex HTML document into a complex tree of Python objects. 
-The BeautifulSoup object can create other types of objects. In this lab, we will cover BeautifulSoup and Tag objects that for the purposes of this lab are identical, 
+The BeautifulSoup object can create other types of objects. 
+In this lab, we will cover BeautifulSoup and Tag objects that for the purposes of this lab are identical, 
 and NavigableString objects.
 
 We can use the method prettify() to display the HTML in the nested structure:
